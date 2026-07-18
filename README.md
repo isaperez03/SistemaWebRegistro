@@ -101,35 +101,35 @@ Tablas principales:
 
 ## Formulario principal
 
-![](img/01_formulario_principal.jpg)
+![](img/01_formulario_principal.png)
 
 ## Cámara activada
 
-![](img/02_camara_activada.jpg)
+![](img/02_camara_activada.png)
 
 ## Vista previa de la captura
 
-![](img/03_vista_previa.jpg)
+![](img/03_vista_previa.png)
 
 ## Consulta de constantes
 
-![](img/04_consulta_constantes.jpg)
+![](img/04_consulta_constantes.png)
 
 ## Consulta ascendente
 
-![](img/05_consulta_ascendente.jpg)
+![](img/05_consulta_ascendente.png)
 
 ## Consulta descendente
 
-![](img/06_consulta_descendente.jpg)
+![](img/06_consulta_descendente.png)
 
 ## Alta exitosa
 
-![](img/07_alta_exitosa.jpg)
+![](img/07_alta_exitosa.png)
 
 ## Login exitoso
 
-![](img/08_login_exitoso.jpg)
+![](img/08_login_exitoso.png)
 
 ---
 
@@ -137,43 +137,43 @@ Tablas principales:
 
 ## Base de datos en HeidiSQL
 
-![](img/09_base_datos_heidisql.jpg)
+![](img/09_base_datos_heidisql.png)
 
 ## Tabla constantes
 
-![](img/10_tabla_constantes.jpg)
+![](img/10_tabla_constantes.png)
 
 ## Tabla login
 
-![](img/11_tabla_login.jpg)
+![](img/11_tabla_login.png)
 
 ## Tabla nombre
 
-![](img/12_tabla_nombre.jpg)
+![](img/12_tabla_nombre.png)
 
 ## Tabla apellido paterno
 
-![](img/13_tabla_papellido.jpg)
+![](img/13_tabla_papellido.png)
 
 ## Tabla apellido materno
 
-![](img/14_tabla_sapellido.jpg)
+![](img/14_tabla_sapellido.png)
 
 ## Tabla nacimiento
 
-![](img/15_tabla_nacimiento.jpg)
+![](img/15_tabla_nacimiento.png)
 
 ## Tabla géneros
 
-![](img/16_tabla_generos.jpg)
+![](img/16_tabla_generos.png)
 
 ## Tabla fotografías
 
-![](img/17_tabla_fotos.jpg)
+![](img/17_tabla_fotos.png)
 
 ## Tabla mensajes
 
-![](img/18_tabla_mensajes.jpg)
+![](img/18_tabla_mensajes.png)
 
 ---
 
@@ -181,31 +181,31 @@ Tablas principales:
 
 ## Formulario HTML
 
-![](img/19_codigo_formulario.jpg)
+![](img/19_codigo_formulario.png)
 
 ## JavaScript (Cámara)
 
-![](img/20_codigo_camara_javascript.jpg)
+![](img/20_codigo_camara_javascript.png)
 
 ## AJAX
 
-![](img/21_codigo_ajax.jpg)
+![](img/21_codigo_ajax.png)
 
 ## Servicios PHP
 
-![](img/22_codigo_servicios_php.jpg)
+![](img/22_codigo_servicios_php.png)
 
 ## Usuarios PHP
 
-![](img/23_codigo_usuarios_php.jpg)
+![](img/23_codigo_usuarios_php.png)
 
 ## Conexión a la base de datos
 
-![](img/24_codigo_base_datos_php.jpg)
+![](img/24_codigo_base_datos_php.png)
 
 ## Estructura del proyecto
 
-![](img/25_estructura_proyecto.jpg)
+![](img/25_estructura_proyecto.png)
 
 ---
 
