@@ -45,7 +45,7 @@ Como característica principal, el sistema hace uso de la API **getUserMedia()**
 
 # 📂 Estructura del proyecto
 
-```
+```text
 FORMULARIO_CAMARA
 │
 ├── PHP
@@ -101,35 +101,31 @@ Tablas principales:
 
 ## Formulario principal
 
-![](img/01_formulario_principal.png)
+![](img/01_formulario_principal.jpg)
 
-## Cámara activada
+## Captura de fotografía
 
-![](img/02_camara_activada.png)
-
-## Vista previa de la captura
-
-![](img/03_vista_previa.png)
+![](img/02_captura_fotografia.jpg)
 
 ## Consulta de constantes
 
-![](img/04_consulta_constantes.png)
+![](img/03_consulta_constantes.jpg)
 
-## Consulta ascendente
+## Consulta de usuarios (ascendente)
 
-![](img/05_consulta_ascendente.png)
+![](img/04_consulta_usuarios_ascendente.jpg)
 
-## Consulta descendente
+## Consulta de usuarios (descendente)
 
-![](img/06_consulta_descendente.png)
+![](img/05_consulta_usuarios_descendente.jpg)
 
-## Alta exitosa
+## Alta de usuario exitosa
 
-![](img/07_alta_exitosa.png)
+![](img/06_alta_usuario_exitosa.jpg)
 
 ## Login exitoso
 
-![](img/08_login_exitoso.png)
+![](img/07_login_exitoso.jpg)
 
 ---
 
@@ -137,43 +133,43 @@ Tablas principales:
 
 ## Base de datos en HeidiSQL
 
-![](img/09_base_datos_heidisql.png)
-
-## Tabla constantes
-
-![](img/10_tabla_constantes.png)
+![](img/08_base_datos_heidisql.jpg)
 
 ## Tabla login
 
-![](img/11_tabla_login.png)
+![](img/09_tabla_login.jpg)
 
 ## Tabla nombre
 
-![](img/12_tabla_nombre.png)
+![](img/10_tabla_nombre.jpg)
 
 ## Tabla apellido paterno
 
-![](img/13_tabla_papellido.png)
+![](img/11_tabla_papellido.jpg)
 
 ## Tabla apellido materno
 
-![](img/14_tabla_sapellido.png)
+![](img/12_tabla_sapellido.jpg)
 
 ## Tabla nacimiento
 
-![](img/15_tabla_nacimiento.png)
+![](img/13_tabla_nacimiento.jpg)
 
 ## Tabla géneros
 
-![](img/16_tabla_generos.png)
+![](img/14_tabla_generos.jpg)
 
 ## Tabla fotografías
 
-![](img/17_tabla_fotos.png)
+![](img/15_tabla_fotos.jpg)
 
 ## Tabla mensajes
 
-![](img/18_tabla_mensajes.png)
+![](img/16_tabla_mensajes.jpg)
+
+## Tabla constantes
+
+![](img/17_tabla_constantes.jpg)
 
 ---
 
@@ -181,31 +177,31 @@ Tablas principales:
 
 ## Formulario HTML
 
-![](img/19_codigo_formulario.png)
+![](img/18_codigo_formulario.png)
 
 ## JavaScript (Cámara)
 
-![](img/20_codigo_camara_javascript.png)
+![](img/19_codigo_camara_javascript.png)
 
 ## AJAX
 
-![](img/21_codigo_ajax.png)
+![](img/20_codigo_ajax.png)
 
 ## Servicios PHP
 
-![](img/22_codigo_servicios_php.png)
+![](img/21_codigo_servicios_php.png)
 
 ## Usuarios PHP
 
-![](img/23_codigo_usuarios_php.png)
+![](img/22_codigo_usuarios_php.png)
 
 ## Conexión a la base de datos
 
-![](img/24_codigo_base_datos_php.png)
+![](img/23_codigo_base_datos_php.png)
 
 ## Estructura del proyecto
 
-![](img/25_estructura_proyecto.png)
+![](img/24_estructura_proyecto.png)
 
 ---
 
@@ -214,17 +210,17 @@ Tablas principales:
 1. Instalar **XAMPP**.
 2. Iniciar los servicios **Apache** y **MariaDB**.
 3. Importar el archivo **usuarios.sql**.
-4. Copiar la carpeta del proyecto dentro de **htdocs**.
+4. Copiar la carpeta **FORMULARIO_CAMARA** dentro de **htdocs**.
 5. Abrir el navegador.
 6. Ejecutar la siguiente dirección:
 
-```
+```text
 http://localhost/Formulario_camara/
 ```
 
 ---
 
-# 👨‍💻 Autora
+# 👩‍💻 Autora
 
 **Juana Isabel Perez Lopez**
 
