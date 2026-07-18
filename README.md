@@ -101,31 +101,31 @@ Tablas principales:
 
 ## Formulario principal
 
-![](img/01_formulario_principal.jpg)
+![](img/01_formulario_principal.png)
 
 ## Captura de fotografía
 
-![](img/02_captura_fotografia.jpg)
+![](img/02_captura_fotografia.png)
 
 ## Consulta de constantes
 
-![](img/03_consulta_constantes.jpg)
+![](img/03_consulta_constantes.png)
 
 ## Consulta de usuarios (ascendente)
 
-![](img/04_consulta_usuarios_ascendente.jpg)
+![](img/04_consulta_usuarios_ascendente.png)
 
 ## Consulta de usuarios (descendente)
 
-![](img/05_consulta_usuarios_descendente.jpg)
+![](img/05_consulta_usuarios_descendente.png)
 
 ## Alta de usuario exitosa
 
-![](img/06_alta_usuario_exitosa.jpg)
+![](img/06_alta_usuario_exitosa.png)
 
 ## Login exitoso
 
-![](img/07_login_exitoso.jpg)
+![](img/07_login_exitoso.png)
 
 ---
 
@@ -133,43 +133,43 @@ Tablas principales:
 
 ## Base de datos en HeidiSQL
 
-![](img/08_base_datos_heidisql.jpg)
+![](img/08_base_datos_heidisql.png)
 
 ## Tabla login
 
-![](img/09_tabla_login.jpg)
+![](img/09_tabla_login.png)
 
 ## Tabla nombre
 
-![](img/10_tabla_nombre.jpg)
+![](img/10_tabla_nombre.png)
 
 ## Tabla apellido paterno
 
-![](img/11_tabla_papellido.jpg)
+![](img/11_tabla_papellido.png)
 
 ## Tabla apellido materno
 
-![](img/12_tabla_sapellido.jpg)
+![](img/12_tabla_sapellido.png)
 
 ## Tabla nacimiento
 
-![](img/13_tabla_nacimiento.jpg)
+![](img/13_tabla_nacimiento.png)
 
 ## Tabla géneros
 
-![](img/14_tabla_generos.jpg)
+![](img/14_tabla_generos.png)
 
 ## Tabla fotografías
 
-![](img/15_tabla_fotos.jpg)
+![](img/15_tabla_fotos.png)
 
 ## Tabla mensajes
 
-![](img/16_tabla_mensajes.jpg)
+![](img/16_tabla_mensajes.png)
 
 ## Tabla constantes
 
-![](img/17_tabla_constantes.jpg)
+![](img/17_tabla_constantes.png)
 
 ---
 
