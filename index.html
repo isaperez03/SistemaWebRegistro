@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulario con cámara</title>
+  <link rel="stylesheet" href="index.css">
+  <script defer src="ajax.js"></script>
+  <script defer src="indexV.js"></script>
+  <script defer src="index.js"></script>
+</head>
+<body>
+  <form id="frm" onsubmit="return false;">
+    <input type="hidden" id="id">
+
+    <!-- Datos personales -->
+    <div class="dobleColumna">
+      <input type="text" id="nombre" placeholder="Nombre(s)">
+      <input type="text" id="papellido" placeholder="Apellido paterno">
+    </div>
+
+    <div class="dobleColumna">
+      <input type="text" id="sapellido" placeholder="Apellido materno">
+      <input type="date" id="nacimiento" placeholder="dd/mm/aaaa">
+    </div>
+
+    <div class="dobleColumna">
+      <select id="genero">
+        <option value="-1">Género (INDEFINIDO)</option>
+        <option value="0">Femenino</option>
+        <option value="1">Masculino</option>
+        <option value="2">Otro</option>
+      </select>
+      <input type="text" id="curp" class="upper" maxlength="18" placeholder="CURP (18 CARACTERES)">
+    </div>
+
+    <div class="soloColumna">
+      <input type="password" id="pwd" placeholder="Contraseña">
+    </div>
+
+    <!-- Tomar foto -->
+    <h2 class="tituloCam">Tomar foto</h2>
+
+    <section class="panelCam">
+      <video id="camVideo" autoplay playsinline></video>
+
+      <div class="botoneraCam">
+        <button type="button" id="camStart"   class="btnCam">Activar cámara</button>
+        <button type="button" id="camCapture" class="btnCam verde">Tomar foto</button>
+        <button type="button" id="camClear"   class="btnCam amarillo">Limpiar foto</button>
+        <button type="button" id="camStop"    class="btnCam rojo">Detener</button>
+      </div>
+
+      <canvas id="camCanvas" class="oculto"></canvas>
+
+      <div class="previewWrapper">
+        <span>Vista previa de la captura</span>
+        <img id="camPreview" alt="Vista previa de la captura">
+      </div>
+
+      <!-- Aquí se guarda el Base64 para mandarlo al backend -->
+      <textarea id="camBase64" class="oculto"></textarea>
+    </section>
+
+    <!-- Botones CRUD -->
+    <div class="botonera">
+      <button type="button" id="btnConst"  class="btn">CONSTANTES</button>
+      <button type="button" id="btnAlta"   class="btn success">ALTAS</button>
+      <button type="button" id="btnCambio" class="btn warning">CAMBIOS</button>
+      <button type="button" id="btnBaja"   class="btn danger">BAJAS</button>
+    </div>
+
+    <!-- Botones de consultas -->
+    <div class="botonera">
+      <button type="button" id="btnAsc"   class="btn">CONSULTAS (ascendente)</button>
+      <button type="button" id="btnDesc"  class="btn">CONSULTAS (descendente)</button>
+      <button type="button" id="btnCL"    class="btn">CONSULTAS_LOGIN</button>
+      <button type="button" id="btnLogin" class="btn">LOGIN</button>
+    </div>
+
+    <div id="tablaResultados" class="tabla"></div>
+  </form>
+</body>
+</html>

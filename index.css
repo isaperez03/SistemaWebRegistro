@@ -1,0 +1,287 @@
+/* ===== Reset y base ===== */
+*{ margin:0; padding:0; box-sizing:border-box; }
+html{ font-family:sans-serif; }
+body{
+  display:flex; flex-direction:column;
+  min-width:100vw; min-height:100vh;
+  background: rgb(172,188,241);
+}
+
+/* ===== Layout del formulario ===== */
+form{
+  display:flex; flex-direction:column;
+  width:96%; max-width:1000px; margin:20px auto;
+}
+
+/* ===== Grids / filas ===== */
+.oculto{ display:none; }
+
+.dobleColumna{
+  display:flex; flex-wrap:wrap;
+  justify-content:space-between;
+  gap:12px; margin:8px 0;
+}
+
+/* Inputs y selects dentro de .dobleColumna */
+.dobleColumna > input,
+.dobleColumna > select {
+  flex:1 1 48%;
+  min-width:220px;
+  margin:.5rem 0;
+  font-size:1.1rem;
+  height:46px;
+  border-radius:8px;
+  border:2px solid #3b4cca;
+  background:#fff;
+  padding:.5rem .8rem;
+  color:#111;
+}
+
+.dobleColumna > input::placeholder { color:#6b7280; }
+.upper{ text-transform:uppercase; }
+.full{ flex-basis:100%!important; width:100%!important; }
+
+/* Input de contraseña */
+input[type="password"]{
+  flex:1 1 48%;
+  min-width:220px;
+  margin:.5rem 0;
+  font-size:1.1rem;
+  height:46px;
+  border-radius:8px;
+  border:2px solid #3b4cca;
+  background:#fff;
+  padding:.5rem .8rem;
+  color:#111;
+}
+input[type="password"]::placeholder{
+  color:#6b7280;
+}
+input[type="password"]:focus{
+  outline:3px solid rgba(47,70,179,.25);
+  outline-offset:1px;
+}
+
+/* ===== Botones ===== */
+.botonera{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:14px; margin:14px 0;
+}
+@media (max-width: 1024px){ .botonera{ grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px){  .botonera{ grid-template-columns: 1fr; } }
+
+.btn{
+  display:inline-flex; align-items:center; justify-content:center;
+  width:100%; height:48px; padding:0 14px; white-space:nowrap;
+  text-align:center; line-height:1;
+  font-size:1.05rem; font-weight:700;
+  border-radius:10px; border:2px solid #2f46b3;
+  background:#fff; color:#1b2559; cursor:pointer; user-select:none;
+  box-shadow:0 2px 0 rgba(0,0,0,.1);
+  transition:all .15s ease;
+}
+.btn:hover{
+  background:#2f46b3; color:#fff; border-color:#2f46b3;
+  box-shadow:0 4px 8px rgba(47,70,179,.35);
+}
+.btn:active{ transform:translateY(1px); box-shadow:0 1px 4px rgba(47,70,179,.25); }
+.btn:focus-visible{ outline:3px solid rgba(47,70,179,.35); outline-offset:1px; }
+
+/* variantes */
+.btn.success{ border-color:#16a34a; }
+.btn.success:hover{ background:#16a34a; }
+.btn.warning{ border-color:#f59e0b; }
+.btn.warning:hover{ background:#f59e0b; }
+.btn.danger{ border-color:#ef4444; }
+.btn.danger:hover{ background:#ef4444; }
+.btn:disabled{ opacity:.6; cursor:not-allowed; }
+
+/* ===== Cámara ===== */
+.tituloCam{
+  margin:18px 0 6px;
+  text-align:center;
+  font-size:1.3rem;
+  font-weight:700;
+  color:#1b2559;
+}
+
+.panelCam{
+  width:100%;
+  max-width:800px;
+  margin:0 auto 14px auto;
+  padding:16px;
+  border-radius:14px;
+  border:2px solid #2f46b3;
+  background:#e5e9ff;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+}
+
+#camVideo{
+  width:100%;
+  max-width:500px;
+  height:180px;
+  border-radius:10px;
+  background:#111827;
+  border:2px solid #2f46b3;
+}
+
+/* Botones de cámara alineados */
+.botoneraCam{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:14px;
+  width:100%;
+  margin-top:10px;
+}
+
+.btnCam{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  height:42px;
+  font-size:.98rem;
+  font-weight:700;
+  border-radius:10px;
+  border:2px solid #2f46b3;
+  background:#fff;
+  color:#1b2559;
+  cursor:pointer;
+  box-shadow:0 2px 0 rgba(0,0,0,.1);
+  transition:all .15s ease;
+}
+.btnCam:hover{
+  background:#2f46b3;
+  color:#fff;
+  box-shadow:0 4px 8px rgba(47,70,179,.35);
+}
+.btnCam:active{
+  transform:translateY(1px);
+  box-shadow:0 1px 4px rgba(47,70,179,.25);
+}
+
+.btnCam.verde{ border-color:#16a34a; color:#166534; }
+.btnCam.verde:hover{ background:#16a34a; color:#fff; }
+.btnCam.amarillo{ border-color:#f59e0b; color:#92400e; }
+.btnCam.amarillo:hover{ background:#f59e0b; color:#fff; }
+.btnCam.rojo{ border-color:#ef4444; color:#991b1b; }
+.btnCam.rojo:hover{ background:#ef4444; color:#fff; }
+
+/* Vista previa */
+.previewWrapper{
+  width:100%;
+  margin-top:6px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:4px;
+}
+
+.previewWrapper span{
+  font-size:.9rem;
+  color:#374151;
+}
+
+#camPreview{
+  width:140px;
+  height:140px;
+  border-radius:10px;
+  border:2px solid #3b4cca;
+  object-fit:cover;
+  background:#e5e7eb;
+}
+
+/* === Tabla de resultados === */
+.tabla{
+  width:100%;
+  max-width:1000px;
+  margin:18px auto;
+  background:#ffffff;
+  border-radius:10px;
+  border:2px solid #3b4cca;
+  overflow-x:auto;
+  box-shadow:0 4px 10px rgba(0,0,0,.08);
+}
+
+.tabla table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:14px;
+  color:#111827;
+}
+
+.tabla thead tr{
+  background:#2f46b3;
+}
+
+.tabla thead th{
+  padding:8px 10px;
+  color:#ffffff;
+  font-weight:700;
+  text-align:left;
+  border-bottom:1px solid #1f2f7a;
+  white-space:nowrap;
+}
+
+.tabla tbody tr:nth-child(odd){
+  background:#f8fafc;
+}
+
+.tabla tbody tr:nth-child(even){
+  background:#eef2ff;
+}
+
+.tabla tbody td{
+  padding:6px 10px;
+  border-top:1px solid #e5e7eb;
+  vertical-align:middle;
+}
+
+/* Columna de acciones */
+.acciones{
+  display:flex;
+  gap:4px;
+  align-items:center;
+}
+
+/* Botones dentro de la tabla */
+.action-btn{
+  padding:2px 8px;
+  font-size:11px;
+  font-weight:700;
+  border-radius:8px;
+  border:1px solid #2f46b3;
+  background:#fff;
+  color:#1b2559;
+  cursor:pointer;
+  transition:all .15s ease;
+}
+
+.action-btn.edit{
+  border-color:#f59e0b;
+}
+
+.action-btn.delete{
+  border-color:#ef4444;
+}
+
+.action-btn:hover{
+  background:#2f46b3;
+  color:#fff;
+}
+
+.action-btn.edit:hover{
+  background:#f59e0b;
+  border-color:#f59e0b;
+  color:#fff;
+}
+
+.action-btn.delete:hover{
+  background:#ef4444;
+  border-color:#ef4444;
+  color:#fff;
+}
